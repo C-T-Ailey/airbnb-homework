@@ -4,39 +4,77 @@
 	<title>Airbnb | Melbourne</title>
 	<link href="https://fonts.googleapis.com/css?family=Nunito:400,700,900" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
+	<meta charset="utf-8">
 </head>
+
 <body>
 
-Sign Up
-Login
+	<div id="top-bar">
+		<img src="images/logo.png" id="logo"/>
+		<div id="accounts">
+			<div><a href="#">Sign Up</a></div>
+			
+			<div><a href="#">Login</a>	</div>
+		</div>	
+	</div>
 
-Melbourne
-From footy to fashion, the cultural capital of Australia dares to stay on the cutting edge.
-Find a neighborhood
+	<div class="melbourne_main">
+		<img src="images/melbourne.jpg" alt="Melbourne view" id="mlbrnview"/>
+		<div class="headtext">
+			<h1>Melbourne</h1>
+			<p>From footy to fashion, the cultural capital of Australia<br> dares to stay on the cutting edge.</p>
+		</div>
+		<button class="bnbutton"><a href="#">Find a neighborhood</a></button>
+	</div>
 
-Locals Love
-Tourists mispronouncing Melbourne (it's mel-bin), crowded trains & trams, ticket inspectors, unpredictable weather, the price of real estate, Sydney
+	<div id="localfeelings">
+		<div class="locals">
+			<h3>Locals Love</h3>
+			<div class="localcontent">
+				<img src="images/heart.png" /><p>Tourists mispronouncing Melbourne (it's mel-bin), crowded trains & trams, ticket inspectors, unpredictable weather, the price of real estate, Sydney</p>
+			</div>
+		</div>
 
-Locals Complain About
-Coffee, talking about coffee, brunch, footy in winter, cricket in summer, laneways & hidden bars, street art &amp; buskers, debating which side of the river is better
+		<div class="locals">
+			<h3>Locals Complain About</h3>
+			<div class="localcontent">
+				<img src="images/chat.png" /><p>Coffee, talking about coffee, brunch, footy in winter, cricket in summer, laneways & hidden bars, street art &amp; buskers, debating which side of the river is better</p>
+			</div>
+		</div>
+	</div>
 
-Featured Neighborhoods
-Explore 19 Melbourne neighborhoods. Which are right for you?
+	<div class="neighborhood_main">
+		<div>
+		<h1>Featured Neighborhoods</h1>
+		<h3>Explore 19 Melbourne neighborhoods. Which are right for you?	</h3>
+		</div>
+		
+		<div class="districts">
+			<div class="container_fitz">
+				<h2 id="cont_text">Fitzroy</h2>
+				<h4 id="cont_text">Baristas, Beards, Bikes.</h4>
+				<p id="bottom_text">Hip Terrace Houses Anything Goes Vintage Clothing</p>
+			</div>
 
-Fitzroy
-Baristas, Beards, Bikes.
-Hip Terrace Houses Anything Goes Vintage Clothing
+			<div class="container_kilda">
+				<h2 id="cont_text">St Kilda</h2>
+				<h4 id="cont_text">Backpackers and packed sand.</h4>
+				<p id="bottom_text">Cake Shops Backpackers Hippies Beach Culture</p>
+			</div>
 
-St Kilda
-Backpackers and packed sand.
-Cake Shops Backpackers Hippies Beach Culture
-
-Central Business District
-Big business. Little laneways
-Coffee Culture Working Nine To Five Federation Square Flinders Street Station
-
-Find a neighborhood
-© Airbnb, Inc.
+			<div class="container_business">
+				<h2 id="cont_text">Central Business District</h2>
+				<h4 id="cont_text">Big business. Little laneways</h4>
+				<p id="bottom_text">Coffee Culture Working Nine To Five Federation Square Flinders Street Station</p>
+			</div>	
+		</div>
+		<button class="bnbutton" id="bottombutton"><a href="#">Find a neighborhood</a></button>
+	</div>
+	
+	<div id="footer">
+		<hr>
+		<p>© Airbnb, Inc.</p>
+	</div>
 
 </body>
 </html>

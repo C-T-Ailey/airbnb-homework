@@ -7,3 +7,172 @@ background grey: #efefef
 title grey: #edefed
 footer grey: #2B2D2E
 */
+
+body {
+    font-family: Nunito;
+    background-color: #efefef;
+    height: 100%;
+}
+
+#top-bar {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#accounts {
+    display: flex;
+    align-items: center;
+}
+
+#accounts a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.locals h3 {
+    background-color: #efefef;
+    padding: 10px;
+}
+
+.locals img {
+    height: 100%;
+}
+
+.melbourne_main {
+    background-color: #efefef;
+    text-align: center;
+}
+
+#mlbrnview {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    filter: brightness(70%);
+}
+
+.melbourne_main h1 p {
+    margin-top: 10%;
+    position: relative;
+}
+
+.bnbutton {
+    background-color: #ff5358;
+    font-family: Nunito;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 3px #e00007;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bnbutton a {
+    text-decoration: none;
+    color: white
+}
+
+#localfeelings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px 0 0 0
+
+}
+
+.locals {
+    width: 40vw;
+    border-style: solid;
+    border-color: rgb(176, 176, 176);
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.localcontent {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.neighborhood_main {
+    text-align: center;
+}
+
+.districts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container_fitz {
+    background-image: url(../images/fitzroy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 30vw;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgb(176, 176, 176);
+    
+}
+
+.container_kilda {
+    background-image: url(../images/st-kilda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 30vw;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgb(176, 176, 176)
+}
+
+.container_business {
+    background-image: url(../images/central-business-district.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 30vw;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgb(176, 176, 176)
+}
+
+#cont_text {
+    color: white;
+}
+
+#bottom_text {
+    color: black;
+}
+
+#bottombutton {
+    margin: 30px 0 70px 0;
+}
+
+#footer {
+    background-color: #2B2D2E;
+    color: white;
+    padding: 50px 0;
+}
+
+hr {
+    border: 1px solid rgb(108, 108, 108);
+}
+
+#footer p {
+    font-size: 12px;
+    margin-top: 30px;
+    text-align: center;
+}
